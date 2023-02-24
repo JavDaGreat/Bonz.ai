@@ -4,74 +4,80 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Booking</title>
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="komponent.css">
+  <title>Booiking</title>
 </head>
 <body>
-  <nav>
-    <img class="logo"src="assets/logo/bonz.ai-logo-black-landscape.png" alt="logo">
-     <div class="hotel-name"> <h1>Bonz Eco Hotel</h1>  
+  <div class="layout">
+    <nav>
+      <img class="logo"src="assets/logo/bonz.ai-logo-black-landscape.png" alt="logo">
+  
+        <ul class="ul-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="">Resturant</a></li>
+          <li><a href="">Our Rooms</a></li>
+          <li><a href="">About</a></li>
+          <button>Book</button>  
+        </ul>
+  
+     <img src="assets/logo/menu-burger-horizontal-svgrepo-com.svg" alt="" class="menu">
+     </nav>
+    <main class="booking">
+
+
+
+     <div class="search-box">
+      <label for="">How long staing?</label>
+      <input type="date" id="date">
+      <label for="number"> qty:</label>
+      <input type="number" id="number">
+      <button >Search</button>
+     </div>
+
+
+     <div class="first-result">
+      <div class="description"> <ul>
+        <li>30m</li>
+        <li>30m</li>
+        <li>30m</li>
+        <li>30m</li>
+      </ul>
+      </div>
+      <div class="room-name"> <h2>Room Standard</h2>
+      <h3>pris: 1950Kr</h3>
+         <button>Book</button>
     </div>
-    <ul class="ul-nav">
-      <li><a href="#">Home</a></li>
-      <li><a href="">Resturant</a></li>
-      <li><a href="">Our Rooms</a></li>
-      <li><a href="">About</a></li>
-      <button><a href="Booking.html">Book</a></button>
-    </ul>
-  </nav>
 
-  <main class="booking">
+      <div class="first-result-img"><img src="assets/photos/08-night.jpg" alt=""></div>
 
+      
+     </div>
+     
+     <div class="secound-result">
+      <div class="description"> <ul>
+        <li>30m</li>
+        <li>30m</li>
+        <li>30m</li>
+        <li>30m</li>
+      </ul>
+      </div>
+      <div class="room-name"> <h2>Room Standard</h2>
+        <h3>pris: 1950Kr</h3>
+           <button>Book</button></div>
 
-<article class="search-box"> 
-  <input type="date" class="date">
-   <input type="number" min="1" max="10" class="number" placeholder="Quantity">
-  <button class="search-button">Search</button>
-</article>
+      <div class="first-result-img"><img src="assets/photos/08-night.jpg" alt=""></div>
 
-
-<article class="search-result">
-
-
-
-  <div class="first-result">
-    <h2>Joniur suit</h2>
-  <ul class="description">
-    <li>30 m</li>
-    <li>2</li>
-    <li>22</li>
-  </ul>
-  <button>book</button>
-  <img src="assets/photos/07-day.jpg" alt="pic">
-  <img src="assets/photos/08-day.jpg" alt="pic">
-  </div>
-
-
-
-  <div class="secound-result">
-    <h2>Standard Room</h2>
-    <ul class="description">
-      <li>30 m</li>
-      <li>2</li>
-      <li>22</li>
-<button>book</button>
-    </ul>
-    <img src="assets/photos/09-day.jpg" alt="pic">
-    <img src="assets/photos/04-day.jpg" alt="pic">
-
-  </div>
-</article>
-
-  </main>
-  <footer>
-    <article class="social-media"> <img src="assets/logo/facebook.png" alt="facebook"> <img src="assets/logo/insta.png"alt="insta"></article>
+      
+     </div>
+    </main>
+    <footer><footer><article class="social-media"> <img src="assets/logo/facebook.png" alt="facebook" > <img src="assets/logo/insta.png"alt="insta" ></article>
     
-    <article class="Contact"> <p>Bonz eco hotel,dalsgatan 28, <br>
-      41238 Göteborg <br>
-      contact Us : 031-232341</p></article>
-
-    <article class="Klarna"><p>Pay with Klarna&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/logo/klarna.png" alt="Klarna logo"></p></article>
-  </footer>
+      <article class="Contact"> <p>Bonz eco hotel,dalsgatan 28, <br>
+        41238 Göteborg <br>
+        contact Us : 031-232341</p></article>
+  
+      <article class="Klarna"><p>Pay with Klarna&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/logo/klarna.png" alt="Klarna logo " ></p></article></footer></footer>
+  </div>
 </body>
 </html>
